@@ -4,9 +4,9 @@ const numpoints = 5;
 
 JXG.Options.layer['polygon'] = 8;
 const board = JXG.JSXGraph.initBoard('jxgbox', {
-								boundingbox: [-xmax, xmax, ymax, -ymax],
-				  axis: true
-			  });
+    boundingbox: [-xmax, xmax, ymax, -ymax],
+    axis: true
+});
 
 let points = [];
 
